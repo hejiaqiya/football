@@ -3,5 +3,5 @@ $(document).on("touchmove",function(e){
 })
 var guideSwiper = new Swiper('#guide',{	    
 	direction:"horizontal",
-	loop: false
+	loop: true
 }); 
