@@ -42,7 +42,11 @@ Util.prototype={
 	},
 	setHeader:function(){
 		console.log("被changeguide改变");
+	},
+	getDate:function(){
+		console.log("被bugfix修改的");
 	}
+
 }
  
 var util=new Util();
