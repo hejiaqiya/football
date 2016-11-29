@@ -39,6 +39,9 @@ Util.prototype={
 				},1000)				
 			}
 		})
+	},
+	setHeader:function(){
+		console.log("被changeguide改变");
 	}
 }
  
